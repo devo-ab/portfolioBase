@@ -84,6 +84,7 @@ nav {
     border-radius: 16px;
     background-color: #0D132105;
     margin: 50px auto;
+    padding-bottom: 50px;
 }
 
 #web-title , #ins-title {
@@ -106,7 +107,6 @@ nav {
 
 #web-details {
     border-radius: 16px;
-    margin: 32px 0px;
     width: 946px;
     margin: 50px auto;
     background-color: aliceblue;
