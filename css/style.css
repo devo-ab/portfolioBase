@@ -86,7 +86,7 @@ nav {
     margin: 50px auto;
 }
 
-#web-title {
+#web-title , #ins-title {
     font-size: 24px;
     font-weight: 800;
     line-height: 37px;
@@ -95,7 +95,7 @@ nav {
     padding-top: 50px;
 }
 
-#web-title-des {
+#web-title-des, #ins-details {
     color: #0D1321;
     opacity: 0.7;
     line-height: 26px;
@@ -163,4 +163,22 @@ nav {
     color: #0D1323;
     opacity: 0.7;
     width: 477px;
+}
+
+#ins-video{
+    border: 1px solid #0D132333;
+    margin-top: 30px;
+    border-radius: 15px;
+    width: 1140px;
+    height: 590px;
+    margin: 0 auto;
+}
+
+#ins-video > iframe{
+    border: none;
+    border-radius: 15px;
+    width: 1090px;
+    height: 550px;
+    margin: 20px auto;
+    display: flex;
 }
