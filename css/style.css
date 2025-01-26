@@ -253,6 +253,60 @@ nav {
     align-items: center;
 }
 
+#support{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../images/background/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    margin: 32px auto;
+    border-radius: 16px;
+}
+
+#support-container{
+    padding: 64px;
+}
+
+#support-con{
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+    justify-content: center;
+}
+
+#support-tittle{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+}
+
+#support-des{
+    line-height: 26px;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#support-input{
+    width: 548px;
+    border: 1px solid #0D132126;
+    border-radius: 8px;
+    padding: 13px;
+}
+
+#input-submit{
+    border: 1px solid #0D132126;
+    border-radius: 8px;
+    padding: 10px;
+    color: #0D1323;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
 #foot{
     background-color: #0D132105;
     padding: 32px;
