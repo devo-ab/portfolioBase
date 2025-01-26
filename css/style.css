@@ -87,7 +87,7 @@ nav {
     padding-bottom: 50px;
 }
 
-#web-title , #ins-title {
+#web-title , #ins-title , #target-title, #next-title{
     font-size: 24px;
     font-weight: 800;
     line-height: 37px;
@@ -96,7 +96,7 @@ nav {
     padding-top: 50px;
 }
 
-#web-title-des, #ins-details {
+#web-title-des, #ins-details , #target-des, #next-des{
     color: #0D1321;
     opacity: 0.7;
     line-height: 26px;
@@ -181,4 +181,74 @@ nav {
     height: 550px;
     margin: 20px auto;
     display: flex;
+}
+
+#target-sec, #next-sec{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#target-card{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+#target-card1{
+    background-color: #FF4C1E0D;
+    border: none;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.target-card1-tittle{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    color: #0D1323;
+    margin-top: 24px;
+}
+
+.target-card1-des{
+    line-height: 26px;
+    color: #0D1323;
+    opacity: 0.7;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.target-card1-link{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #0D1323;
+}
+
+#target-card2{
+    background-color: #004CE80D;
+    border: none;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+#target-card3{
+    background-color: #FFDF000D;
+    border: none;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+#next{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.next-card{
+    border: 1px solid #0D132129;
+    padding: 40px;
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
